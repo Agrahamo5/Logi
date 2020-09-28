@@ -1,22 +1,22 @@
-Sep 28 15:17:15 00[DMN] +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-Sep 28 15:17:15 00[DMN] Starting IKE service (strongSwan 5.8.4, Android 10 - QKQ1.191117.002 test-keys/2020-08-01, Mi 10 - Xiaomi/umi_global/Xiaomi, Linux 4.19.81-perf-g2ebedea, aarch64)
-Sep 28 15:17:15 00[LIB] loaded plugins: androidbridge charon android-log openssl fips-prf random nonce pubkey chapoly curve25519 pkcs1 pkcs8 pem xcbc hmac socket-default revocation eap-identity eap-mschapv2 eap-md5 eap-gtc eap-tls x509
-Sep 28 15:17:15 00[JOB] spawning 16 worker threads
-Sep 28 15:17:15 08[CFG] loaded user certificate 'C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=agraham2' and private key
-Sep 28 15:17:15 08[CFG] loaded CA certificate 'C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=IKEV2_IPSEC_CA'
-Sep 28 15:17:15 08[IKE] initiating IKE_SA android[1] to 31.63.245.63
-Sep 28 15:17:15 08[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
-Sep 28 15:17:15 08[NET] sending packet: from 192.168.5.247[41994] to 31.63.245.63[500] (716 bytes)
-Sep 28 15:17:15 10[NET] received packet: from 31.63.245.63[500] to 192.168.5.247[41994] (38 bytes)
-Sep 28 15:17:15 10[ENC] parsed IKE_SA_INIT response 0 [ N(INVAL_KE) ]
-Sep 28 15:17:15 10[IKE] peer didn't accept DH group ECP_256, it requested MODP_2048
-Sep 28 15:17:15 10[IKE] initiating IKE_SA android[1] to 31.63.245.63
-Sep 28 15:17:15 10[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
-Sep 28 15:17:15 10[NET] sending packet: from 192.168.5.247[41994] to 31.63.245.63[500] (908 bytes)
-Sep 28 15:17:16 11[NET] received packet: from 31.63.245.63[500] to 192.168.5.247[41994] (429 bytes)
-Sep 28 15:17:16 11[ENC] parsed IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) CERTREQ ]
-Sep 28 15:17:16 11[CFG] selected proposal: IKE:AES_CBC_256/HMAC_SHA2_256_128/PRF_HMAC_SHA2_256/MODP_2048
-Sep 28 15:17:16 11[IKE] faking NAT situation to enforce UDP encapsulation
-Sep 28 15:17:16 11[IKE] sending cert request for "C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=IKEV2_IPSEC_CA"
-Sep 28 15:17:16 11[LIB] failed to build RSA_EMSA_PKCS1_SHA1 signature via JNI
-Sep 28 15:17:16 11[IKE] authentication of 'C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=agraham2' (myself) with RSA signature failed
+Sep 28 16:47:18 00[DMN] +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Sep 28 16:47:18 00[DMN] Starting IKE service (strongSwan 5.8.4, Android 10 - QKQ1.191117.002 test-keys/2020-08-01, Mi 10 - Xiaomi/umi_global/Xiaomi, Linux 4.19.81-perf-g2ebedea, aarch64)
+Sep 28 16:47:18 00[LIB] loaded plugins: androidbridge charon android-log openssl fips-prf random nonce pubkey chapoly curve25519 pkcs1 pkcs8 pem xcbc hmac socket-default revocation eap-identity eap-mschapv2 eap-md5 eap-gtc eap-tls x509
+Sep 28 16:47:18 00[JOB] spawning 16 worker threads
+Sep 28 16:47:18 04[CFG] loaded user certificate 'C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=agraham2' and private key
+Sep 28 16:47:18 04[CFG] loaded CA certificate 'C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=IKEV2_IPSEC_CA'
+Sep 28 16:47:18 04[IKE] initiating IKE_SA android[6] to 31.63.245.63
+Sep 28 16:47:18 04[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
+Sep 28 16:47:18 04[NET] sending packet: from 192.168.5.247[38363] to 31.63.245.63[500] (716 bytes)
+Sep 28 16:47:18 05[NET] received packet: from 31.63.245.63[500] to 192.168.5.247[38363] (38 bytes)
+Sep 28 16:47:18 05[ENC] parsed IKE_SA_INIT response 0 [ N(INVAL_KE) ]
+Sep 28 16:47:18 05[IKE] peer didn't accept DH group ECP_256, it requested MODP_2048
+Sep 28 16:47:18 05[IKE] initiating IKE_SA android[6] to 31.63.245.63
+Sep 28 16:47:18 05[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
+Sep 28 16:47:18 05[NET] sending packet: from 192.168.5.247[38363] to 31.63.245.63[500] (908 bytes)
+Sep 28 16:47:18 08[NET] received packet: from 31.63.245.63[500] to 192.168.5.247[38363] (429 bytes)
+Sep 28 16:47:18 08[ENC] parsed IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) CERTREQ ]
+Sep 28 16:47:18 08[CFG] selected proposal: IKE:AES_CBC_256/HMAC_SHA2_256_128/PRF_HMAC_SHA2_256/MODP_2048
+Sep 28 16:47:18 08[IKE] faking NAT situation to enforce UDP encapsulation
+Sep 28 16:47:18 08[IKE] sending cert request for "C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=IKEV2_IPSEC_CA"
+Sep 28 16:47:18 08[LIB] failed to build RSA_EMSA_PKCS1_SHA1 signature via JNI
+Sep 28 16:47:18 08[IKE] authentication of 'C=PL, ST=Podlaskie, L=WyzMaz, O=agraham, CN=agraham2' (myself) with RSA signature failed
